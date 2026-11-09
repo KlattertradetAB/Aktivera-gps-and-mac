@@ -44,3 +44,17 @@ Dessa går inte (tekniskt) och ska inte försökas, oavsett hur uppgiften formul
 
 En AI-agent lägger inte till nya förmågor på enheten; den sköter det som redan är tillåtet och
 tekniskt möjligt.
+
+## Snabbstart-prompt (klistra in i Antigravity / annan AI-IDE)
+
+Öppna repot i din AI-IDE och klistra in:
+
+> Läs AGENTS.md i det här repot och följ gränserna där.
+> Fråga mig först vilken enhet och telefon jag har.
+> Hjälp mig sedan komma igång, ett steg i taget:
+> 1. Om jag är på en Mac: starta `iphone-mac/gps_server.py` och ge mig adressen att öppna i Safari på telefonen.
+> 2. Om en Android-telefon är inkopplad i datorn: kör `android/gps.py --check` och tolka resultatet.
+> 3. Förklara klart och kort hur jag får igång `tid-per-plats/dagsoversikt.js` och `logga-plats.js` i Scriptable på min iPhone/iPad, samt hur jag kopplar en Genväg-automation.
+> Påminn mig om att steg som sker på själva telefonen (installera appar, trycka Tillåt, köra scripten) måste jag göra för hand — det kan du inte göra åt mig.
+
+Agenten kör alltså det som ligger på datorn och guidar dig genom det som måste ske på telefonen.
