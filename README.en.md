@@ -57,6 +57,10 @@ standard library — nothing to install via `pip`.
 
 Each folder has its own detailed README with step-by-step instructions and troubleshooting.
 
+> **Extra:** [`tid-per-plats/`](tid-per-plats/) — see how much time you spent at each place during
+> the day (Google Maps Timeline, a private self-logger, or OwnTracks). [`ipad/`](ipad/) — show
+> today's scheduled places on iPad/iPhone via a Shortcut or Scriptable.
+
 ## Requirements
 
 - **Python 3.8 or later** (`python3 --version`)
