@@ -31,6 +31,7 @@ Ett eget litet verktyg i två delar som kör på din telefon och håller allt **
 |---|---|
 | [`logga-plats.js`](logga-plats.js) | Sparar din nuvarande position till en lokal loggfil. |
 | [`tid-per-plats.js`](tid-per-plats.js) | Räknar ut hur länge du var på varje plats idag. Tryck på en rad → öppna i Kartor. |
+| [`dagsoversikt.js`](dagsoversikt.js) | **Allt-i-ett:** din plats just nu + dagens inbokade platser (kalender) + tid per plats idag, i en enda vy. |
 
 **Så sätter du upp det:**
 
