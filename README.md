@@ -1,0 +1,1 @@
+# Aktivera-gps-and-mac
