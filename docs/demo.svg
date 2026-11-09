@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="380" viewBox="0 0 820 380" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="14">
+  <defs>
+    <style>
+      .bg   { fill: #0d1117; }
+      .bar  { fill: #161b22; }
+      .dim  { fill: #6e7681; }
+      .txt  { fill: #c9d1d9; }
+      .grn  { fill: #3fb950; }
+      .cyan { fill: #56d4dd; }
+      .blue { fill: #58a6ff; }
+      .acc  { fill: #d2a8ff; }
+      .bold { font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- fönster -->
+  <rect class="bg" x="0" y="0" width="820" height="380" rx="12"/>
+  <rect class="bar" x="0" y="0" width="820" height="36" rx="12"/>
+  <rect class="bar" x="0" y="24" width="820" height="12"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="18" r="6" fill="#27c93f"/>
+  <text class="dim" x="410" y="23" text-anchor="middle">iphone-mac — python3 gps_server.py --log</text>
+
+  <!-- innehåll -->
+  <g>
+    <text x="24" y="66"><tspan class="grn bold">$</tspan><tspan class="txt" dx="8">python3 gps_server.py --log</tspan></text>
+
+    <text class="dim" x="24" y="92">============================================================</text>
+    <text class="acc bold" x="24" y="110">  iphone-gps — servern körs på din Mac</text>
+    <text class="dim" x="24" y="128">============================================================</text>
+
+    <text class="txt" x="24" y="154">Öppna EN av dessa adresser i Safari på iPhonen:</text>
+    <text x="24" y="178"><tspan class="blue" dx="40">https://172.20.10.1:8443</tspan><tspan class="dim" dx="16">(iPhone USB-kabel)</tspan></text>
+
+    <text class="dim" x="24" y="204">Positioner visas här nedan. Avbryt med Ctrl+C.</text>
+
+    <text x="24" y="238"><tspan class="dim">[14:03:19]</tspan><tspan class="cyan" dx="12">59.329301, 18.068599</tspan><tspan class="dim" dx="16">±18 m</tspan></text>
+    <text x="24" y="262"><tspan class="dim">[14:03:21]</tspan><tspan class="cyan" dx="12">59.329410, 18.069120</tspan><tspan class="grn" dx="16">±9 m</tspan></text>
+    <text x="24" y="286"><tspan class="dim">[14:03:23]</tspan><tspan class="cyan bold" dx="12">59.329502, 18.069740</tspan><tspan class="grn bold" dx="16">±6 m</tspan></text>
+    <text x="24" y="310"><tspan class="dim" dx="92">↳</tspan><tspan class="blue" dx="8">https://maps.apple.com/?ll=59.329502,18.069740</tspan></text>
+
+    <text x="24" y="344"><tspan class="grn bold">$</tspan><tspan class="txt" dx="8">▏</tspan></text>
+  </g>
+</svg>

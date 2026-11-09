@@ -11,6 +11,10 @@ För iPhone (via Mac) och Android (via USB). Allt körs lokalt — inga data lä
 [![Licens](https://img.shields.io/badge/licens-Apache%202.0-blue)](LICENSE)
 [![Integritet](https://img.shields.io/badge/integritet-100%25%20lokalt-brightgreen)](#-säkerhet--integritet)
 
+**🇸🇪 Svenska** · [🇬🇧 English](README.en.md)
+
+<img src="docs/demo.svg" alt="Demo av terminalutskriften" width="700">
+
 </div>
 
 ---
