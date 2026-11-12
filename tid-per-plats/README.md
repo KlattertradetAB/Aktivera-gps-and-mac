@@ -4,6 +4,10 @@ Tre sätt att se **hur mycket tid du lagt på varje plats under dagen** — för
 överblick och ditt eget lugn. Allt handlar om *din egen* data, och de privata varianterna
 håller allt lokalt på din enhet.
 
+<div align="center">
+  <img src="../docs/snabbstart.gif" alt="Snabbstart steg för steg" width="560">
+</div>
+
 > **Viktigt att veta:** iOS lämnar inte ut detaljerad platshistorik (eller wifi-/Bluetooth-loggar)
 > till ett script via kabel. Det går alltså inte att "plocka ut gårdagens sekunder" i efterhand.
 > Vägarna nedan är de som faktiskt fungerar: färdig historik från en tjänst du redan använder,
