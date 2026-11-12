@@ -3,6 +3,10 @@
 Visa dagens kalenderhändelser **som har en plats**, direkt på iPaden eller iPhonen —
 utan dator. Allt läser bara din egen kalender och frågar om lov första gången.
 
+<div align="center">
+  <img src="../docs/snabbstart-ipad.gif" alt="Snabbstart steg för steg" width="560">
+</div>
+
 Två sätt, välj det du gillar:
 
 ## Väg 1 — Genväg (Shortcuts), inget att installera

@@ -70,6 +70,10 @@ Each folder has its own detailed README with step-by-step instructions and troub
 
 ## Quick start
 
+<div align="center">
+  <img src="docs/snabbstart-mac.gif" alt="Quick start, step by step" width="560">
+</div>
+
 **🍎 iPhone + Mac**
 
 ```bash

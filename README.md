@@ -70,6 +70,10 @@ Varje mapp har en egen, utförlig README med steg-för-steg-instruktioner och fe
 
 ## Snabbstart
 
+<div align="center">
+  <img src="docs/snabbstart-mac.gif" alt="Snabbstart steg för steg" width="560">
+</div>
+
 **🍎 iPhone + Mac**
 
 ```bash

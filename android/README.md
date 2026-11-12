@@ -11,6 +11,10 @@ ansluten med kabel och själv godkänna anslutningen — så det fungerar bara p
 fysiskt har och trycker "Tillåt" på. Inga positionsdata skickas någonstans; allt sker lokalt
 mellan din dator och din telefon.
 
+<div align="center">
+  <img src="../docs/snabbstart-android.gif" alt="Snabbstart steg för steg" width="560">
+</div>
+
 ## Funktioner
 
 - 📍 Läs senast kända position en gång, eller löpande med `--watch`
