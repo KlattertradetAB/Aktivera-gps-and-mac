@@ -9,6 +9,10 @@
 iPhonens riktiga position läses via webbläsarens Geolocation-API och visas live på din Mac.
 Allt sker lokalt mellan din iPhone och din dator — inget skickas vidare.
 
+<div align="center">
+  <img src="../docs/snabbstart-mac.gif" alt="Snabbstart steg för steg" width="560">
+</div>
+
 ## Varför det ser ut så här
 
 Till skillnad från Android finns det **ingen** väg för en dator att läsa iPhonens GPS direkt
