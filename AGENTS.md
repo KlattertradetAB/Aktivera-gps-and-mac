@@ -58,3 +58,17 @@ tekniskt möjligt.
 > Påminn mig om att steg som sker på själva telefonen (installera appar, trycka Tillåt, köra scripten) måste jag göra för hand — det kan du inte göra åt mig.
 
 Agenten kör alltså det som ligger på datorn och guidar dig genom det som måste ske på telefonen.
+
+### Variant: bara iPhone + iPad (ingen Mac-del)
+
+Om du bara vill få igång tidsöverblicken på telefonen/iPaden, klistra in:
+
+> Läs AGENTS.md och följ gränserna där. Jag har bara iPhone och iPad, ingen Mac —
+> hoppa över Mac- och Android-stegen.
+> Guida mig i stället, ett steg i taget, genom att:
+> 1. Installera appen Scriptable.
+> 2. Lägga in `tid-per-plats/dagsoversikt.js` och `tid-per-plats/logga-plats.js` som script.
+> 3. Ge plats- och kalendertillåtelse första gången.
+> 4. Skapa en Genväg-automation som kör `logga-plats.js` (på tid, och/eller vid anländer/lämnar).
+> 5. Köra `dagsoversikt.js` för att se dagen samlad.
+> Kom ihåg att alla tryck på telefonen gör jag själv — påminn mig, gör dem inte åt mig.
