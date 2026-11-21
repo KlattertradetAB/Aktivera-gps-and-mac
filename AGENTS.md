@@ -16,6 +16,7 @@ egna tiden. Allt körs lokalt; ingen data skickas till tredje part.
 | `android/` | Läs Androids GPS via USB/ADB | `cd android && python3 gps.py` (telefon ansluten, USB-felsökning godkänd) |
 | `ipad/` | Visa dagens inbokade platser (iPad/iPhone) | Genväg i appen Genvägar, eller `DagensPlatser.js` i appen Scriptable |
 | `tid-per-plats/` | Tid per plats idag | `logga-plats.js` loggar position, `tid-per-plats.js` summerar (Scriptable); se README för Google Maps Tidslinje / OwnTracks |
+| `plats-historik/` | Läs din egen nedladdade Google-platshistorik (bakåt) | `cd plats-historik && python3 las-historik.py SÖKVÄG [--csv ut.csv]` — läser en Takeout-/Tidslinje-export du själv laddat ner |
 
 Varje mapp har en egen README med detaljer. Python-verktygen använder bara standardbiblioteket.
 

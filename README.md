@@ -58,8 +58,10 @@ och använder bara standardbiblioteket — inget att installera via `pip`.
 Varje mapp har en egen, utförlig README med steg-för-steg-instruktioner och felsökning.
 
 > **Extra:** [`tid-per-plats/`](tid-per-plats/) — se hur mycket tid du lagt på varje plats under
-> dagen (Google Maps Tidslinje, en egen privat loggare, eller OwnTracks). [`ipad/`](ipad/) — visa
-> dagens inbokade platser på iPad/iPhone via Genväg eller Scriptable.
+> dagen (Google Maps Tidslinje, en egen privat loggare, eller OwnTracks).
+> [`plats-historik/`](plats-historik/) — läs var du varit **bakåt i tiden** ur din egna
+> nedladdade Google-platshistorik. [`ipad/`](ipad/) — visa dagens inbokade platser på
+> iPad/iPhone via Genväg eller Scriptable.
 
 ## Krav
 
