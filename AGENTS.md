@@ -17,6 +17,7 @@ egna tiden. Allt körs lokalt; ingen data skickas till tredje part.
 | `ipad/` | Visa dagens inbokade platser (iPad/iPhone) | Genväg i appen Genvägar, eller `DagensPlatser.js` i appen Scriptable |
 | `tid-per-plats/` | Tid per plats idag | `logga-plats.js` loggar position, `tid-per-plats.js` summerar (Scriptable); se README för Google Maps Tidslinje / OwnTracks |
 | `plats-historik/` | Läs din egen nedladdade Google-platshistorik (bakåt) | `cd plats-historik && python3 las-historik.py SÖKVÄG [--csv ut.csv]` — läser en Takeout-/Tidslinje-export du själv laddat ner |
+| `konto-granskning/` | Granska din egen nedladdade TikTok-export vid misstänkt intrång | `cd konto-granskning && python3 analysera-export.py SÖKVÄG --rapport r.txt --csv alla.csv` — inventerar data, flaggar misstänkta inloggningar, tidskorsar aktivitet |
 
 Varje mapp har en egen README med detaljer. Python-verktygen använder bara standardbiblioteket.
 
