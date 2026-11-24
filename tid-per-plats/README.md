@@ -36,6 +36,7 @@ Ett eget litet verktyg i två delar som kör på din telefon och håller allt **
 | [`logga-plats.js`](logga-plats.js) | Sparar din nuvarande position till en lokal loggfil. |
 | [`tid-per-plats.js`](tid-per-plats.js) | Räknar ut hur länge du var på varje plats idag. Tryck på en rad → öppna i Kartor. |
 | [`dagsoversikt.js`](dagsoversikt.js) | **Allt-i-ett:** din plats just nu + dagens inbokade platser (kalender) + tid per plats idag, i en enda vy. |
+| [`rensa-logg.js`](rensa-logg.js) | **Tömmer** din lokala `platslogg.jsonl` (med säkerhetsfråga + frivillig backup). Rör bara projektets egen fil. |
 
 **Så sätter du upp det:**
 
@@ -79,6 +80,32 @@ Det finns **ingen** väg för ett script på iOS att läsa ut en logg över vilk
 Bluetooth-enheter telefonen anslutit till. Den datan exponeras inte för appar. (På en **Mac**
 kan du se din *egen* wifi-historik i systemet — säg till om du vill ha ett litet Mac-script
 för just det.)
+
+---
+
+## Rensa / radera platsdata
+
+Vill du **tömma** platsdata gäller samma mur som för att läsa den: ett skript når bara
+projektets egen loggfil, inte systemets. Så här gör du:
+
+**Projektets egen logg** (det `logga-plats.js` sparat): kör
+[`rensa-logg.js`](rensa-logg.js) i Scriptable. Den frågar först och kan spara en backup
+innan den tömmer `platslogg.jsonl`.
+
+**iOS egen platshistorik** — det går *inte* via skript, men öppet i Inställningar:
+
+- **Viktiga platser:** Inställningar → Integritet och säkerhet → Platstjänster →
+  Systemtjänster → Viktiga platser → *Rensa historik*.
+- **Nollställ plats & integritet** (alla appars platstillstånd): Inställningar → Allmänt →
+  Överför eller nollställ iPhone → Nollställ → *Nollställ plats och integritet*.
+- **En enskild apps åtkomst:** Inställningar → Integritet och säkerhet → Platstjänster →
+  välj appen → *Aldrig*.
+
+**Google Maps Tidslinje:** radera i Google Maps-appen (din profilbild → Din tidslinje →
+⋯ → ta bort) eller via [myactivity.google.com](https://myactivity.google.com).
+
+> Att iOS kräver att du gör det här för hand i Inställningar är med flit — det är just det
+> skyddet som gör att bara du, inte en app eller ett skript, kan rensa din platsdata.
 
 ---
 
